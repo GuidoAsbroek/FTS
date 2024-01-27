@@ -4,16 +4,16 @@
 
 Om de ITM Buildserver te maken, volg je deze stappen:
 
-1. **Clone Repository:**
+1. **Kloon Repository:**
     ```bash
     git clone https://github.com/your-username/Bing-Maps-Fleet-Tracker.git](https://github.com/GuidoAsbroek/FTS.git
     ```
 
-2. **Run Script:**
+2. **Draai het Script:**
     ```bash
     cd Bing-Maps-Fleet-Tracker/Backend
     ./setup.sh
     ```
 
 3. **Test Setup:**
-    The Backend of Fleet Tracker System should be running at http://localhost/api on port 80.
+    De Backend van Fleet Tracker draait op http://localhost/api:80
