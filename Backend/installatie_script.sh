@@ -38,4 +38,4 @@ dotnet build
 dotnet run --project Bing-Maps-Fleet-Tracker/Backend/src/Trackable.Web/Trackable.Web.csproj 
 
 # Output a message indicating successful execution
-echo "The Backend of Fleet Tracker System is running at http://localhost/api on port 80."
+echo "Backend draait op http://localhost/api:80"
