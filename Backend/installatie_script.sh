@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Update system
-sudo apt update
-sudo apt upgrade -y
-
 # Install .NET SDK 6.0
 wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
@@ -39,7 +35,7 @@ cd Bing-Maps-Fleet-Tracker/Backend
 dotnet build
 
 # Run Backend
-dotnet run --project Backend/src/Trackable.Web/Trackable.Web.csproj
+dotnet run --project Bing-Maps-Fleet-Tracker/Backend/src/Trackable.Web/Trackable.Web.csproj 
 
 # Output a message indicating successful execution
 echo "The Backend of Fleet Tracker System is running at http://localhost/api on port 80."
