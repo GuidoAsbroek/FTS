@@ -17,7 +17,8 @@ Om de ITM Buildserver te maken, volg je deze stappen:
 3. **Draai het Script:**
     ```bash
     cd FTS/Backend
-    ./setup.sh
+    chmod a+x installatie_script.sh
+    ./installatie_script.sh
     ```
 
 3. **Test Setup:**
