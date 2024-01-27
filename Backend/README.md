@@ -16,7 +16,7 @@ Om de ITM Buildserver te maken, volg je deze stappen:
 
 3. **Draai het Script:**
     ```bash
-    cd Bing-Maps-Fleet-Tracker/Backend
+    cd FTS/Backend
     ./setup.sh
     ```
 
