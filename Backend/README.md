@@ -6,7 +6,7 @@ Om de ITM Buildserver te maken, volg je deze stappen:
 
 1. **Kloon Repository:**
     ```bash
-    git clone https://github.com/your-username/Bing-Maps-Fleet-Tracker.git](https://github.com/GuidoAsbroek/FTS.git
+    git clone https://github.com/GuidoAsbroek/FTS.git
     ```
 
 2. **Draai het Script:**
